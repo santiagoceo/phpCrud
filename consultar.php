@@ -40,5 +40,6 @@
                 }
             ?>
         </table>
+        <br><a href='index.html'>Volver al menú</a>
     </body>
 </html>

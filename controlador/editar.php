@@ -10,3 +10,5 @@ $objUsuario = new Usuario();
 
 echo $objUsuario->actualizarId($conexion, $_POST['id'], $_POST['nombre'], $_POST['apellido'],
 $_POST['documento'], $_POST['fechaNacimiento']);
+
+echo "<br><a href='../index.html'>Volver al menú</a>";

@@ -39,4 +39,14 @@ class Usuario {
 
         return $respuesta;
     }
+
+    public function eliminarId($conexion, $id){
+        $query = "DELETE from usuario WHERE id = '$id';";
+        $consulta = mysqli_query($conexion, $query);
+        if ($consulta){
+            $respuesta = "Usuario eliminado";
+        }else{
+            $respuesta = "Problemas al eliminar, el error es: ". mysqli_error($conexion);
+        }
+    }
 }

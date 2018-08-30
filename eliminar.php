@@ -35,7 +35,7 @@
                 <td><?php echo $dato['apellido'] ?></td>
                 <td><?php echo $dato['documento'] ?></td>
                 <td><?php echo $dato['fecha_nacimiento'] ?></td>
-                <td><a href="editar.php?id=<?php echo $dato['id']; ?>">Editar</a></td>
+                <td><a href="confirmarEliminar.php?id=<?php echo $dato['id']; ?>">Eliminar</a></td>
             </tr>
             <?php
                 }

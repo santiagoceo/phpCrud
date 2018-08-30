@@ -48,5 +48,7 @@ class Usuario {
         }else{
             $respuesta = "Problemas al eliminar, el error es: ". mysqli_error($conexion);
         }
+
+        return $respuesta;
     }
 }

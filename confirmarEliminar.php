@@ -32,6 +32,8 @@ while($dato = mysqli_fetch_array($datos)){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
 </head>
 <body>
     <h1>Este es el usuario que vas a eliminar</h1>
@@ -47,5 +49,6 @@ while($dato = mysqli_fetch_array($datos)){
         <input type="date" name="fechaNacimiento" id="" value="<?php echo $fechaNacimiento ?>" disabled> <br>
         <input type="submit" value="Confirmar Eliminar">
     </form>
+    <br><a href='index.html'>Volver al menú</a>
 </body>
 </html>

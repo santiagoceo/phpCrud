@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+p, body {
+    font-family: 'Open Sans', sans-serif;
+}
+a, input[type=submit] {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    border: 2px solid #cccccc;
+}
+a:hover, input[type=submit]:hover {
+    background-color: #cacaca;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 3px 10px;
+    text-align: center;
+}
+.btnEditar {
+    padding: 0px 10px;
+}

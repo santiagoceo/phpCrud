@@ -15,6 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
 </head>
     <body>
         <h2>Consultar y modificar</h2>
@@ -35,7 +37,7 @@
                 <td><?php echo $dato['apellido'] ?></td>
                 <td><?php echo $dato['documento'] ?></td>
                 <td><?php echo $dato['fecha_nacimiento'] ?></td>
-                <td><a href="editar.php?id=<?php echo $dato['id']; ?>">Editar</a></td>
+                <td><a class="btnEditar" href="editar.php?id=<?php echo $dato['id']; ?>">Editar</a></td>
             </tr>
             <?php
                 }

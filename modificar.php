@@ -27,6 +27,7 @@
                 <th>Apellido</th>
                 <th>Documento</th>
                 <th>Fecha nacimiento</th>
+                <th>Acción</th>
             </tr>
             <?php
                 while($dato = mysqli_fetch_array($datos)){
